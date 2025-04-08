@@ -1,7 +1,8 @@
-import calendar
+#Program 10
 
-year = int(input(f"Enter year: "))
-month = int(input(f"Enter month: "))
-cal = calendar.month(year, month)
-print(cal)
+a = input(f"Masukkan angka A: ")
+b = input(f"Masukkan angka B: ")
 
+a, b = b, a
+
+print(f"Angka A jadi {a} dan B jadi {b}")
